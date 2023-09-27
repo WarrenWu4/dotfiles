@@ -1,0 +1,10 @@
+2023-09-27 01:13:48.508 [info] [Info  - 1:13:48 AM] (10228) Pylance language server 2023.9.20 (pyright 35eaeca4) starting
+2023-09-27 01:13:48.508 [info] [Info  - 1:13:48 AM] (10228) Server root directory: /home/warrenwu/.vscode/extensions/ms-python.vscode-pylance-2023.9.20/dist
+2023-09-27 01:13:48.516 [info] [Info  - 1:13:48 AM] (10228) Starting service instance "leetcode"
+2023-09-27 01:13:48.681 [info] [Info  - 1:13:48 AM] (10228) Setting pythonPath for service "leetcode": "/bin/python"
+2023-09-27 01:13:48.835 [info] [Info  - 1:13:48 AM] (10228) Setting pythonPath for service "leetcode": "/bin/python"
+2023-09-27 01:13:48.841 [info] [Warn  - 1:13:48 AM] (10228) stubPath /home/warrenwu/leetcode/typings is not a valid directory.
+2023-09-27 01:13:48.841 [info] [Info  - 1:13:48 AM] (10228) Assuming Python version 3.11
+2023-09-27 01:13:48.916 [info] [Info  - 1:13:48 AM] (10228) Found 1 source file
+2023-09-27 01:14:05.449 [info] [Info  - 1:14:05 AM] (10228) Found 2 source files
+2023-09-27 01:53:25.790 [info] [Info  - 1:53:25 AM] (10228) Found 3 source files

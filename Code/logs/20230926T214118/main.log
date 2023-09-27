@@ -1,0 +1,3 @@
+2023-09-26 21:41:19.080 [info] update#setState idle
+2023-09-26 21:41:21.301 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 6427]: crashed with code 15 and reason 'killed'
+2023-09-26 21:41:26.505 [info] Extension host with pid 6448 exited with code: 0, signal: unknown.

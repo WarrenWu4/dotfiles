@@ -1,0 +1,55 @@
+2023-09-26 21:41:20.550 [info] Extension host with pid 6448 started
+2023-09-26 21:41:20.550 [info] Skipping acquiring lock for /home/warrenwu/.config/Code/User/workspaceStorage/7b9a2296977d1e5f3c1a37b1e9437f3b.
+2023-09-26 21:41:20.701 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-26 21:41:20.768 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-09-26 21:41:20.801 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-26 21:41:20.836 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-26 21:41:21.040 [info] Eager extensions activated
+2023-09-26 21:41:21.118 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 21:41:21.127 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 21:41:21.147 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 21:41:21.177 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 21:41:21.302 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 21:41:21.420 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 21:41:21.455 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 21:41:21.496 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-26 21:41:21.539 [error] Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at r.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82208)
+    at r.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+    at u.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:80967)
+    at r.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82744)
+    at r.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81739)
+    at r.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:21247)
+    at g.setState (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1314884)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1316652
+    at <anonymous> setContext undefined
+2023-09-26 21:41:22.514 [error] Canceled (FileSystemError): Canceled
+    at Function.e (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:27846)
+    at Object.createDirectory (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:24938)
+2023-09-26 21:41:22.514 [error] Canceled (FileSystemError): Canceled
+    at Function.e (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:27846)
+    at Object.createDirectory (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:24938)
+2023-09-26 21:41:22.515 [error] Canceled (FileSystemError): Canceled
+    at Function.e (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:27846)
+    at Object.createDirectory (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:24938)
+2023-09-26 21:41:22.515 [error] Canceled (FileSystemError): Canceled
+    at Function.e (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:27846)
+    at Object.createDirectory (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:24938)
+2023-09-26 21:41:22.516 [error] Canceled (FileSystemError): Canceled
+    at Function.e (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:27846)
+    at Object.createDirectory (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:24938)
+2023-09-26 21:41:22.541 [error] Error: Channel has been closed
+    at i (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:2880)
+    at Object.trace (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:3145)
+    at g.openRepository (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1322320)
+    at r (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1265487)
+2023-09-26 21:41:22.542 [error] Error: Channel has been closed
+    at i (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:2880)
+    at Object.trace (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:3145)
+    at g.openRepository (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1320759)
+    at r (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1265495)
+2023-09-26 21:41:26.502 [info] Extension host with pid 6448 exiting with code 0

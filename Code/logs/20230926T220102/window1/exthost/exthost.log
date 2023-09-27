@@ -1,0 +1,146 @@
+2023-09-26 22:01:05.124 [info] Extension host with pid 2313 started
+2023-09-26 22:01:05.124 [info] Skipping acquiring lock for /home/warrenwu/.config/Code/User/workspaceStorage/fec116bf1e17a0ded5d1026571fb3e72.
+2023-09-26 22:01:05.282 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-26 22:01:05.286 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-09-26 22:01:05.332 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-26 22:01:05.426 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-26 22:01:05.670 [info] Eager extensions activated
+2023-09-26 22:01:05.824 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-26 22:01:05.903 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 22:01:05.905 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 22:01:05.918 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 22:01:05.952 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 22:01:06.114 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 22:01:06.265 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 22:01:06.375 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-26 22:01:08.123 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-09-26 22:01:08.946 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-26 22:01:09.039 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at p.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:19663)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:18172)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:450:13 
+2023-09-26 22:01:09.350 [error] Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at r.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82208)
+    at r.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+    at u.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:80967)
+    at r.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82744)
+    at r.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81739)
+    at r.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:21247)
+    at tryActivation (/home/warrenwu/.vscode/extensions/github.copilot-1.116.440/extension/src/extension.ts:135:18)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at activate (/home/warrenwu/.vscode/extensions/github.copilot-1.116.440/extension/src/extension.ts:177:5)
+    at E.n (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:6206)
+    at E.m (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:6169)
+    at E.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:5626) setContext undefined
+2023-09-26 22:01:09.407 [error] Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at r.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82208)
+    at r.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+    at u.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:80967)
+    at r.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82744)
+    at r.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81739)
+    at r.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:21247)
+    at t.ConversationFeature.set enabled [as enabled] (/home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1301752)
+    at t.CopilotTokenNotifier.<anonymous> (/home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1310142)
+    at t.CopilotTokenNotifier.emit (node:events:525:35)
+    at t.CopilotTokenNotifier.emit (/home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1004603)
+    at g (/home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1000701)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1288961
+    at /home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1288615
+    at l.getCopilotToken (/home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1288583)
+    at /home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1607854
+    at e.activate (/home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1607826)
+    at E.n (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:6206)
+    at E.m (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:6169)
+    at E.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:5626) setContext undefined
+2023-09-26 22:01:09.414 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at p.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:19663)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:18172)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:450:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-09-26 22:01:09.415 [error] Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at r.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82208)
+    at r.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+    at u.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:80967)
+    at r.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82744)
+    at r.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81739)
+    at r.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:21247)
+    at /home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1607934
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at e.activate (/home/warrenwu/.vscode/extensions/github.copilot-chat-0.7.1/dist/extension.js:2:1607826)
+    at E.n (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:6206)
+    at E.m (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:6169)
+    at E.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:5626) setContext undefined
+2023-09-26 22:01:10.467 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at p.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:19663)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:18172)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:450:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-09-26 22:01:10.518 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at p.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:19663)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:18172)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:450:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-09-26 22:01:10.546 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at p.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:19663)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:18172)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:450:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-09-26 22:01:10.571 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at p.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:19663)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:18172)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:450:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-09-26 22:01:10.591 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+    at i.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+    at Proxy.j.<computed>.T.charCodeAt.j.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+    at p.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:19663)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:18172)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:450:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2023-09-26 22:01:13.959 [info] Extension host with pid 2313 exiting with code 0

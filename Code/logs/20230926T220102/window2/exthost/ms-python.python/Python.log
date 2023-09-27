@@ -1,0 +1,16 @@
+2023-09-26 22:01:06.527 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-09-26 22:01:06.527 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-09-26 22:01:06.527 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2023-09-26 22:01:06.527 [info] Experiment 'pythonTestAdaptercf' is active
+2023-09-26 22:01:06.604 [info] Test server listening.
+2023-09-26 22:01:06.604 [info] Python interpreter path: /bin/python
+2023-09-26 22:01:11.525 [info] Starting Pylance language server.
+2023-09-26 23:28:27.879 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
+2023-09-26 23:29:16.185 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
+2023-09-26 23:31:04.113 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
+2023-09-26 23:31:22.847 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
+2023-09-26 23:31:48.412 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
+2023-09-26 23:32:33.024 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
+2023-09-26 23:32:42.030 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
+2023-09-26 23:33:05.541 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
+2023-09-26 23:33:25.051 [info] Discover tests for workspace name: leetcode - uri: /home/warrenwu/leetcode/group-anagrams.py
