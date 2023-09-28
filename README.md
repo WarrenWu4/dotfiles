@@ -5,3 +5,5 @@ packages used:
 - kitty (terminal emulator)
 - zsh + oh-my-zsh (as shell)
 - pavucontrol (for audio)
+
+move .tmux and .tmux.conf to root dir
