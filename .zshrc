@@ -73,6 +73,7 @@ ZSH_THEME="warrenwu"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source /usr/share/fzf/key-bindings.zsh
 
 # User configuration
 
@@ -99,4 +100,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vim="nvim"
+alias vi="nvim"
+alias gcvm="ssh -i ~/.ssh/gcp-ubuntu-vm warrenwu@34.27.178.191"
+alias umnt="sudo mount -t drvfs U: /mnt/u"
 
+autoload -Uz compinit
+zstyle ':completion:*' menu select
+fpath+=~/.zfunc
