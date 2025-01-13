@@ -1,0 +1,203 @@
+{
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggest.showStatusBar": true,
+    "editor.accessibilitySupport": "off",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "svelte.enable-ts-plugin": true,
+    "terminal.integrated.env.windows": {},
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font",
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "javascript",
+        "astro": "html"
+    },
+    "editor.wordWrap": "on",
+    "tailwind-fold.autoFold": false,
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "files.dialog.defaultPath": "/c/Users/wuwar/Documents",
+    "editor.fontSize": 16,
+    "glassit.alpha": 255,
+    "backgroundCover.opacity": 0.8,
+    "workbench.startupEditor": "none",
+    "react-native-tools.showUserTips": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "extensions.ignoreRecommendations": true,
+    "prettier.tabWidth": 4,
+    "better-comments.tags": [
+        {
+            "tag": "~",
+            "color": "#39e68f",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "[cpp]": {
+        "editor.tabSize": 4,
+        "editor.wordBasedSuggestions": "off",
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true
+    },
+    "C_Cpp.default.cppStandard": "c++17",
+    "go.toolsManagement.autoUpdate": true,
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.fontSize": 16,
+    "window.zoomLevel": 2,
+    "background.enabled": false,
+    "background.fullscreen": {
+        "images": [
+            "https://firebasestorage.googleapis.com/v0/b/dev-test-58595.appspot.com/o/degen-7.jpg?alt=media&token=10f329ff-cd76-4e7e-bdac-0b48d480aedd"
+        ],
+        "opacity": 0.9,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    },
+    "redhat.telemetry.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showOptionsMovedNotification": false,
+    "remote.SSH.remotePlatform": {
+        "grace.hprc.tamu.edu": "linux"
+    },
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindings": [
+        // navigate between tabs
+        { "before": ["<S-h>"], "commands": [":bprevious"]},
+        { "before": ["<S-l>"], "commands": [":bnext"]},
+        // splits
+        { "before": ["leader", "v"], "commands": [":vsplit"]},
+        { "before": ["leader", "s"], "commands": [":split"]},
+        // panes
+        {
+            "before": ["leader", "h"],
+            "commands": ["workbench.action.focusLeftGroup"]
+        },
+        {
+            "before": ["leader", "j"],
+            "commands": ["workbench.action.focusBelowGroup"]
+        },
+        {
+            "before": ["leader", "k"],
+            "commands": ["workbench.action.focusAboveGroup"]
+        },
+        {
+            "before": ["leader", "l"],
+            "commands": ["workbench.action.focusRightGroup"]
+        },
+        // file tree
+        {
+            "before": ["leader", "n", "e"],
+            "commands": ["workbench.explorer.fileView.focus"]
+        },
+        {
+            "before": ["leader", "n", "c"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        // niceities
+        {
+            "before": ["leader", "p"],
+            "commands": ["editor.action.formatDocument"]
+        },
+        {
+            "before": ["leader", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["g", "h"],
+            "commands": ["editor.action.showDefinitionPreviewHover"]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<"],
+            "commands": ["editor.action.outdentLines"]
+        },
+        {
+            "before": [">"],
+            "commands": ["editor.action.indentLines"]
+        },
+        {
+            "before": ["J"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        },
+        {
+            "before": ["K"],
+            "commands": ["editor.action.moveLinesUpAction"]
+        },
+        {
+            "before": ["leader", "c"],
+            "commands": ["editor.action.commentLine"]
+        },
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
+
