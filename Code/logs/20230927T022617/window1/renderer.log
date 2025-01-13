@@ -1,8 +1,0 @@
-2023-09-27 02:26:18.808 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
-package.json (LOSES): interactive, interactiveUserActions, terminalContextMenu, terminalDataWriteEvent, terminalSelection, terminalQuickFixProvider, handleIssueUri, chatSlashCommands, readonlyMessage, chatVariables, mappedEditsProvider, aiRelatedInformation
-product.json (WINS): handleIssueUri, interactive, interactiveUserActions, terminalContextMenu, terminalDataWriteEvent, terminalSelection, terminalQuickFixProvider, chatSlashCommands, readonlyMessage, mappedEditsProvider, aiRelatedInformation
-2023-09-27 02:26:21.774 [info] [perf] Render performance baseline is 71ms
-2023-09-27 16:48:56.810 [error] Cannot read properties of undefined (reading 'data'): TypeError: Cannot read properties of undefined (reading 'data')
-    at /home/warrenwu/.vscode/extensions/ms-python.vscode-pylance-2023.9.20/dist/extension.bundle.js:1:131899
-    at _0x243be6 (/home/warrenwu/.vscode/extensions/ms-python.vscode-pylance-2023.9.20/dist/extension.bundle.js:1:143640)
-    at pe.provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:51158)

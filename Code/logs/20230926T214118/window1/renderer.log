@@ -1,3 +1,0 @@
-2023-09-26 21:41:20.012 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
-package.json (LOSES): interactive, interactiveUserActions, terminalContextMenu, terminalDataWriteEvent, terminalSelection, terminalQuickFixProvider, handleIssueUri, chatSlashCommands, readonlyMessage, chatVariables, mappedEditsProvider, aiRelatedInformation
-product.json (WINS): handleIssueUri, interactive, interactiveUserActions, terminalContextMenu, terminalDataWriteEvent, terminalSelection, terminalQuickFixProvider, chatSlashCommands, readonlyMessage, mappedEditsProvider, aiRelatedInformation

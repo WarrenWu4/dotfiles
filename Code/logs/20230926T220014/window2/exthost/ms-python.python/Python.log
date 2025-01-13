@@ -1,6 +1,0 @@
-2023-09-26 22:00:39.796 [info] Experiment 'pythonPromptNewFormatterExt' is active
-2023-09-26 22:00:39.796 [info] Experiment 'pythonPromptNewToolsExt' is active
-2023-09-26 22:00:39.796 [info] Experiment 'pythonTerminalEnvVarActivation' is active
-2023-09-26 22:00:39.796 [info] Experiment 'pythonTestAdaptercf' is active
-2023-09-26 22:00:39.911 [info] Test server listening.
-2023-09-26 22:00:39.958 [info] Python interpreter path: /bin/python
