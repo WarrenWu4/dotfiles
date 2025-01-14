@@ -1,5 +1,5 @@
 function ColorMyPencils(color) 
-    color = color or "catppuccin"
+    color = color or "gruvbox-material"
     vim.cmd.colorscheme(color)
     
     -- transparent background
