@@ -10,7 +10,7 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
   -- ensure the following language lsp are installed:
   -- [c++: clangd, java: java-language-server, python: pyright, javascript & typescript: tsserver]
-  ensure_installed = {"pyright", "tsserver"},
+  -- ensure_installed = {"pyright", "tsserver"},
   handlers = {
     lsp_zero.default_setup,
   },
