@@ -25,13 +25,12 @@ return require('packer').startup(function(use)
 	    }
     }
 
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.8',
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
     -- use('theprimeagen/harpoon')
     -- use('mbbill/undotree')
-  -- telescope plugin
-  --[[use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.5',
-	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} }
-  } --]]
 
 end)
