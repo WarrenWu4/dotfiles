@@ -30,6 +30,8 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    use {"m4xshen/autoclose.nvim"}
+
     -- use('theprimeagen/harpoon')
     -- use('mbbill/undotree')
 
