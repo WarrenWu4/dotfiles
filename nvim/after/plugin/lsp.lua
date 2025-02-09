@@ -1,9 +1,15 @@
+_G.vim = vim
 local lsp_zero = require('lsp-zero')
+
+lsp_zero.preset('recommended')
 
 -- default key bindings for each active server
 lsp_zero.on_attach(function(client, bufnr)
-  lsp_zero.default_keymaps({buffer = bufnr})
+    local opts = {buffer = bufnr, remap = false}
+    vim.keymap.set("n", "<leader>e", function() vim.diagnostic.open_float() end, opts)
 end)
+
+lsp_zero.setup()
 
 -- using mason to install lsp servers
 require('mason').setup({})
@@ -27,6 +33,4 @@ cmp.setup({
         ['<C-Space>'] = cmp.mapping.complete(),
     })
 })
-
-
 
