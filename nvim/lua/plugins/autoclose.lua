@@ -23,4 +23,14 @@ local config = {
       disable_command_mode = false,
    },
 }
-require('autoclose').setup(config)
+return {
+    {
+        "m4xshen/autoclose.nvim", -- auto close specific chars like ([{"'``'"}])
+        config = function()
+            require("autoclose").setup(config)
+        end
+    },
+    {
+        "windwp/nvim-ts-autotag", -- automatically close html and jsx tags
+    }
+}
