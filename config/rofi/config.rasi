@@ -1,0 +1,8 @@
+configuration {
+    icon-theme: "Papirus";
+    show-icons: true;
+    fullscreen: false;
+    width: 600;
+}
+@theme "raycast"
+

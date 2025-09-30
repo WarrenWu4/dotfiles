@@ -1,10 +1,14 @@
 # dotfiles
 
-packages used:
-- vs code (installed from aur instead of pacman)
+- hyprland (window manager)
+- rofi
+- waybar
+- nvim (text editor)
 - kitty (terminal emulator)
-- zsh + oh-my-zsh (as shell)
-- pavucontrol (for audio)
+
+- zsh (shell)
+- oh-my-zsh
+- pavucontrol (audio)
 
 move .tmux and .tmux.conf and .zshrc to root dir
 2 oh-my-zsh themes (make sure to add to ~/.oh-my-zsh/themes/)

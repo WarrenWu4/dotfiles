@@ -1,0 +1,125 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    // "height": 24, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 8, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "custom/power",
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+    ],
+    "modules-right": [
+        // "pulseaudio",
+        // "network",
+        // "custom/bluetooth",
+        // "custom/language",
+        "hyprland/window",
+        "battery",
+        "battery#bat2",
+        "clock"
+    ],
+    // Modules configuration
+    // TODO: add options for power
+    "custom/power": {
+        "format": "  "
+		// "tooltip": false,
+		// "menu": "on-click",
+		// "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+		// "menu-actions": {
+		// 	"shutdown": "shutdown",
+		// 	"reboot": "reboot",
+		// 	"suspend": "systemctl suspend",
+		// 	"hibernate": "systemctl hibernate"
+		// }
+    },
+    "hyprland/workspaces": {
+        // "disable-scroll": true,
+        "active-only":false,
+        "all-outputs": true,
+        "on-click": "activate",
+        "persistent-workspaces":{
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": [],
+            "9": [],
+            "10": []
+        }
+    },
+    "hyprland/window": {
+        "format": " ",
+        "icon": true,
+        "icon-size": 16
+    },
+    "clock": {
+        "timezone": "America/Chicago",
+        "tooltip-format": "{:%A, %B %d, %Y %I:%M %p}",
+        "format": "{:%I:%M %p}",
+        "interval": 60
+    },
+    "battery": {
+        "states": {
+            "good": 80,
+            "warning": 20,
+            "critical": 5
+        },
+        // "format": "{capacity}% {icon}",
+        // "format-full": "{capacity}% {icon}",
+        // "format-charging": "{capacity}%  ",
+        // "format-plugged": "{capacity}%  ",
+        "format": "{icon}",
+        "format-full": "{icon}",
+        "format-charging": "",
+        "format-plugged": "",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    // TODO: update icon set
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon}",
+        "format-bluetooth": "",
+        "format-bluetooth-muted": "",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    // TODO: add bluetooth module
+    "custom/bluetooth": {
+        "format": ""
+    },
+    // TODO: add custom language module
+    "custom/language": {
+        "format": "EN"
+    }
+}
