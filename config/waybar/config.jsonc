@@ -1,5 +1,7 @@
 // -*- mode: jsonc -*-
 {
+    "layer": "top",
+    "position": "top",
     "spacing": 2,
     "modules-left": [
         "custom/power",
@@ -8,11 +10,19 @@
     "modules-center": [
     ],
     "modules-right": [
+        "tray",
         "battery",
         "battery#bat2",
         "custom/modules",
         "clock"
     ],
+    "tray": {
+        "icon-size": 16,
+        "spacing": 2,
+        "icons": {
+            "discord": "\uf1ff"
+        }
+    },
     "custom/power": {
         "format": " \uf179 "
     },
