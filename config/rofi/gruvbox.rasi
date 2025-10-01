@@ -1,13 +1,13 @@
 * {
-    font:   "Montserrat 12";
+    font:   "CaskaydiaCove Nerd Font Mono 12";
 
-    bg0:    #242424E6;
-    bg1:    #7E7E7E80;
-    bg2:    #0860f2E6;
+    bg0:    #282828ff;
+    bg1:    #3c3836ff;
+    bg2:    #504945ff;
 
-    fg0:    #DEDEDE;
-    fg1:    #FFFFFF;
-    fg2:    #DEDEDE80;
+    fg0:    #fbf1c7ff;
+    fg1:    #ebdbb2ff;
+    fg2:    #d5c4a1ff;
 
     background-color:   transparent;
     text-color:         @fg0;
@@ -22,23 +22,18 @@ window {
 
     location:       center;
     width:          640;
-    border-radius:  8;
+    border:     2px;
+    border-color:   @fg0;
 }
 
 inputbar {
-    font:       "Montserrat 20";
-    padding:    12px;
+    font:       "CaskaydiaCove Nerd Font Mono 16";
+    padding:    16px;
     spacing:    12px;
-    children:   [ icon-search, entry ];
+    children:   [ entry ];
 }
 
-icon-search {
-    expand:     false;
-    filename:   "search";
-    size: 28px;
-}
-
-icon-search, entry, element-icon, element-text {
+entry, element-icon, element-text {
     vertical-align: 0.5;
 }
 
