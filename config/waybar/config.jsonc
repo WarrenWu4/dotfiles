@@ -11,17 +11,17 @@
     ],
     "modules-right": [
         "tray",
+        "custom/separator",
         "battery",
         "battery#bat2",
         "custom/modules",
         "clock"
     ],
     "tray": {
-        "icon-size": 16,
-        "spacing": 2,
-        "icons": {
-            "discord": "\uf1ff"
-        }
+        "spacing": 16
+    },
+    "custom/separator": {
+        "format": " | "
     },
     "custom/power": {
         "format": " \uf179 "
