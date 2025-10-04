@@ -13,7 +13,6 @@
         "tray",
         "custom/separator",
         "battery",
-        "battery#bat2",
         "custom/modules",
         "clock"
     ],
@@ -24,7 +23,16 @@
         "format": " | "
     },
     "custom/power": {
-        "format": " \uf179 "
+        "format": "  ",
+        "tooltip": false,
+        "menu": "on-click",
+        "menu-file": "$HOME/.config/waybar/power-menu.xml",
+			//      "menu-actions": {
+			// "shutdown": "shutdown",
+			// "reboot": "reboot",
+			// "suspend": "systemctl suspend",
+			// "hibernate": "systemctl hibernate"
+			//      }
     },
     "hyprland/workspaces": {
         "active-only":false,
@@ -55,22 +63,22 @@
             "warning": 20,
             "critical": 5
         },
-        // "format": "{capacity}% {icon}",
-        // "format-full": "{capacity}% {icon}",
-        // "format-charging": "{capacity}%  ",
-        // "format-plugged": "{capacity}%  ",
-        "format": "{icon}",
-        "format-full": "{icon}",
-        "format-charging": "",
-        "format-plugged": "",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-        "bat": "BAT2"
+        "format": "",
+        "tooltip": true,
+        "tooltip-format": "{capacity}%"
     },
     "custom/modules": {
-        "format": "\uf013"
+        "format": "\uf013",
+        "tooltip": false,
+        "menu": "on-click",
+        "menu-file": "$HOME/.config/waybar/modules-menu.xml",
+        "menu-actions": {
+            "action-background": "",
+            "action-bluetooth": "blueman-manager",
+            "action-internet": "nm-connection-editor",
+            "action-audio": "pavucontrol",
+            "action-hardware": "",
+            "action-language": ""
+        }
     }
 }
