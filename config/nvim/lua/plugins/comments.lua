@@ -4,9 +4,9 @@ return {
         dependencies = { "nvim-lua/plenary.nvim" },
         opts = {
             keywords = {
-                INFO = {icon = "∩ä⌐", color = "info", alt = { "info", "Info" } },
-                TODO = { icon = "∩ÆÉ ", color = "warning" },
-                FIX = { icon = "∩åê ", color = "error", alt = { "FIXME", "BUG", "ISSUE" } },
+                INFO = {icon = "", color = "info", alt = { "info", "Info" } },
+                TODO = { icon = "", color = "warning" },
+                FIX = { icon = "", color = "error", alt = { "FIXME", "BUG", "ISSUE" } },
             },
             highlight = {
                 before = "",
