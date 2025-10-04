@@ -32,6 +32,8 @@ vim.opt.smartindent = true
 vim.opt.termguicolors = true
 -- more spacing settings
 vim.opt.scrolloff = 8
+-- copy and paste setting
+vim.opt.clipboard = "unnamedplus"
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
