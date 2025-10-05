@@ -13,7 +13,6 @@
         "tray",
         "custom/separator",
         "battery",
-        "custom/modules",
         "clock"
     ],
     "tray": {
@@ -27,12 +26,12 @@
         "tooltip": false,
         "menu": "on-click",
         "menu-file": "$HOME/.config/waybar/power-menu.xml",
-			//      "menu-actions": {
-			// "shutdown": "shutdown",
-			// "reboot": "reboot",
-			// "suspend": "systemctl suspend",
-			// "hibernate": "systemctl hibernate"
-			//      }
+        "menu-actions": {
+            "shutdown": "shutdown",
+            "reboot": "reboot",
+            "suspend": "systemctl suspend",
+            "hibernate": "systemctl hibernate"
+        }
     },
     "hyprland/workspaces": {
         "active-only":false,
@@ -66,19 +65,5 @@
         "format": "",
         "tooltip": true,
         "tooltip-format": "{capacity}%"
-    },
-    "custom/modules": {
-        "format": "\uf013",
-        "tooltip": false,
-        "menu": "on-click",
-        "menu-file": "$HOME/.config/waybar/modules-menu.xml",
-        "menu-actions": {
-            "action-background": "",
-            "action-bluetooth": "blueman-manager",
-            "action-internet": "nm-connection-editor",
-            "action-audio": "pavucontrol",
-            "action-hardware": "",
-            "action-language": ""
-        }
     }
 }
