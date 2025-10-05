@@ -29,7 +29,12 @@ button:hover {
 #workspaces button {
     padding: 0 4px;
     background-color: transparent;
-    color: #ffffff;
+    color: #bdbb26;
+}
+
+#workspaces button.empty {
+    background-color: transparent;
+    color: #ebdbb2;
 }
 
 #workspaces button.active {
@@ -45,6 +50,7 @@ button:hover {
 #workspaces button.urgent {
     background-color: #eb4d4b;
 }
+
 
 #tray,
 #custom-modules,
